@@ -363,9 +363,9 @@ html[data-color=high] #c9-cita{background:linear-gradient(180deg,color-mix(in sr
 #c9-cita{background:var(--paper)!important;color:var(--ink)!important}
 html[data-color=high] #c9-cita,html[data-color=none] #c9-cita{background:var(--tint)!important}
 html[data-color=normal] #c9-cita{background:var(--paper)!important}
-#c9-cita .label,#c9-cita .quote-ref,#c9-cita .q-line-2{color:var(--accent-dark)!important}
-#c9-cita .q-line,#c9-cita .q-line-1{color:var(--ink)!important}
-#c9-cita .q-line-2{color:var(--accent-dark)!important}
+#c9-cita .label,#c9-cita .quote-ref{color:var(--accent-dark)!important}
+/* V18 — toda la cita conserva la misma tinta, incluido el remate. */
+#c9-cita .q-line,#c9-cita .q-line-1,#c9-cita .q-line-2{color:var(--ink)!important}
 /* Blend the whole overlay with the page, not the rings with their own transparent layer. */
 #gravity10.water-mode17{mix-blend-mode:difference}
 #gravity10.water-mode17 .water-ring12{border-color:#fff;border-width:1.5px}
